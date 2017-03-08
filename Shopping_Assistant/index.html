@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Calculator</title>
+    <script src="js/script.js"></script>
+  </head>
+<body>
+	<h1>代購小幫手</h1>
+  
+	<ul>
+		<li>商品價值: <input id="price" type="value"></li>
+		<li>商品件數: <input id="article" type="value"></li>
+		<li>美國運費: <input id="us_shipping" type="value" value=7.5></li>
+		<li>美國免運費金額(USD): <input id="free_shipping" type="value" value=100></li>
+		<li>國際運費(按件計算; 暫定): <input id="international_shipping" type="value" value=5></li>
+		<li>台灣運費(暫定): <input id="tw_shipping" type="value" value=2></li>
+		<li>州稅: <input id="tax" type="value" value=0.09></li>
+		<li>基本服務費: <input id="basic" type="value" value=5></li>
+		<li>收費門檻1: <input id="threshold1" type="value" value=50></li>
+		<li>服務費率1: <input id="service1" type="value" value=0.1></li>
+		<li>收費門檻2: <input id="threshold2" type="value" value=200></li>
+		<li>服務費率2: <input id="service2" type="value" value=0.05></li>
+		<p>以上皆以美金計算</p>
+		<li>匯率: <input id="exchange" type="value" value=31.5></li>
+	</ul>
+
+	<div>
+		<button>Calculate</button>
+	</div>
+    
+    <div id="result">Result:</div>
+
+</body>
+</html>
