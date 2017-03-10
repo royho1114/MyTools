@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.navbar-brand p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #DDDDDD;
+}
+
+.item_box {
+	margin-bottom: 20px;
+	padding: 20px 15px 10px 15px;
+}
+
+#collapsable-nav hr {
+	margin: 0px 20px 0px 20px;
+	border-color: #DDDDDD;
+}
+
+#shopping_assistant {
+	background-color: #aa5555;
+}
+
+.item_box a {
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		border: 1px solid #DDDDDD;
+		background-color: #555555;
+	}
+}
+	
